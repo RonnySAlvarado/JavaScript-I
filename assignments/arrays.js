@@ -82,6 +82,7 @@ let carModels = [];
 for (let i = 0; i < inventory.length; i++){
     for (let j = i; j < inventory.length; j++){
         if (inventory[i].car_model.toLowerCase() > inventory[j].car_model.toLowerCase()){
+            
             [inventory[i], inventory[j]] = [inventory[j], inventory[i]]
         }
     }  

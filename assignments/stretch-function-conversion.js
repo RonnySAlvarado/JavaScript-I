@@ -26,9 +26,11 @@ console.log(subtract(1,2));
 subtract(1,2);
 
 
+
 // exampleArray = [1,2,3,4];
 // const triple = exampleArray.map(function (num) {
 //   return num * 3;
 // });
 // console.log(triple);
 
+const triple = exampleArray.map(num => num *3);
