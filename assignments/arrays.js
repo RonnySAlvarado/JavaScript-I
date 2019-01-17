@@ -80,7 +80,7 @@ console.log(`${inventory[inventory.length - 1].car_make} ${inventory[inventory.l
 // The marketing team wants the car models listed alphabetically on the website. Sort all the car model names into alphabetical order and log the results in the console
 let carModels = [];
 for (let i = 0; i < inventory.length; i++){
-    for (let i = j; j < inventory.length; j++){
+    for (let j = i; j < inventory.length; j++){
         if (inventory[i].car_model.toLowerCase() > inventory[j].car_model.toLowerCase()){
             [inventory[i], inventory[j]] = [inventory[j], inventory[i]]
         }
