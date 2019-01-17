@@ -5,11 +5,14 @@
 // let anotherFunction = function (param) {
 //   return param;
 // };
+const anotherFunction = param => param;
 
 // let add = function (param1, param2) {
 //   return param1 + param2;
 // };
 // add(1,2);
+const add = (param1, param2) => param1 + param2;
+
 
 // let subtract = function (param1, param2) {
 //   return param1 - param2;

@@ -9,6 +9,7 @@
 // 4,gmartinson3@illinois.edu,Gannie,M
 // 5,adaine5@samsung.com,Antonietta,F
 
+
 // Example format of an intern object: 1,examples@you.edu,Example,F
 const example = {
   "id": 0,
@@ -18,6 +19,42 @@ const example = {
 }
 
 // Write your intern objects here:
+
+const Mitzi =  {
+  "id": 1,
+  "email": 'mmelloy0@psu.edu',
+  "first name": 'Mitzi',
+  "gender": 'F'
+}
+
+const Kennan = {
+  "id": 2,
+  "email": 'kdiben1@tinypick.com',
+  "first name": 'Kennan',
+  "gender": 'M'
+}
+
+const Keven = {
+  "id": 3,
+  "email": 'kmummery2@wikimedia.org',
+  "first name": 'Keven',
+  "gender": 'M'
+}
+
+const Gannie = {
+  "id": 4,
+  "name": 'Gannie',
+  "email": 'gmartinson3@illinois.edu',
+  "gender": 'M'
+}
+
+const Antonietta = {
+  "id": 5,
+  "name": 'Antonietta',
+  "email": 'adaine5@samsung.com',
+  "gender": 'F'
+}
+
 
 
 // ==== Challenge 2: Reading Object Data ==== 
@@ -49,7 +86,8 @@ const example = {
 // 3. Nest a grandchild object in the child object with properties for name and age.  The name will be Sam and the age will be 30
 // 4. Give each of the objects the ability to speak their names using the this keyword.
 
-const parent = {}
+const parent = {
+}
 
 // Log the parent object's name
 
