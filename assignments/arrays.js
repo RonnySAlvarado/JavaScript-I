@@ -121,3 +121,5 @@ for (let i = 0; i < inventory.length; i++){
     }
 }
 console.log(BMWAndAudi);
+const JSONBMWAndAudi = JSON.stringify(BMWAndAudi);
+console.log(JSONBMWAndAudi);
